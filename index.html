@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deneb × Vega</title>
+<meta name="theme-color" content="#070a1a">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=Inter:wght@300;400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="locked">
+<canvas id="stars" aria-hidden="true"></canvas>
+<div id="nebula" aria-hidden="true"></div>
+<div id="grain" aria-hidden="true"></div>
+
+<main id="world"></main>
+
+<footer id="footer" class="reveal">
+  <span class="f-star" aria-hidden="true"></span>
+  <p class="f-top">Happy 1 month anniversary to myy Deneb.</p>
+  <p class="f-mid">I'm always loves youuu!!</p>
+  <p class="f-gift">This small gift from your —</p>
+  <p class="f-sign">Jaadduu
+    <svg class="f-heart" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dfe3"/><stop offset="1" stop-color="#d9a5b3"/></linearGradient></defs><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.8 5 6.1 5c2 0 3.4 1.1 4.2 2.4h3.4C14.5 6.1 15.9 5 17.9 5c3.3 0 5.2 3.4 3.7 6.8C19.5 16.4 12 21 12 21z" fill="url(#hg)"/></svg>
+    your Vega</p>
+</footer>
+
+<div id="gate">
+  <div class="gate-inner">
+    <p class="eyebrow" id="gate-eyebrow"></p>
+    <h1 id="gate-title"></h1>
+    <button id="enter" class="btn-enter" type="button"><span id="enter-label">Enter our universe</span></button>
+    <p class="gate-note">best with sound on</p>
+  </div>
+</div>
+
+<div id="hud">
+  <div id="progress" aria-hidden="true"><i></i></div>
+  <button id="music-btn" type="button" aria-label="Toggle music" aria-pressed="false"><span class="bars"><i></i><i></i><i></i></span></button>
+  <button id="home-btn" type="button" aria-label="Back to the beginning">&#8593;</button>
+</div>
+
+<div id="viewer" class="overlay" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+  <div class="overlay-bg" data-close></div>
+  <div class="viewer-body" id="viewer-body"></div>
+  <button class="close-btn" type="button" data-close aria-label="Close">&times;</button>
+</div>
+
+<div id="lock" class="overlay" role="dialog" aria-modal="true" aria-label="A little secret" aria-hidden="true" hidden>
+  <div class="lock-glow"></div>
+  <div class="lock-body" id="lock-body"></div>
+  <button class="close-btn light" type="button" id="lock-close" aria-label="Close">&times;</button>
+</div>
+
+<div id="cursor" aria-hidden="true"><i></i><b></b></div>
+
+<script src="js/data.js"></script>
+<script src="js/music.js"></script>
+<script src="js/scroll-effects.js"></script>
+<script src="js/universe.js"></script>
+<script src="js/memories.js"></script>
+<script src="js/calendar.js"></script>
+<script src="js/deneb-lock.js"></script>
+<script src="js/celestial-interactions.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
