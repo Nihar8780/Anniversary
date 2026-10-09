@@ -1,0 +1,7 @@
+@media (max-width:700px){
+  .chapter{padding:0 7vw}.chapter:nth-child(even) .chapter-text{text-align:right}
+  .paper{padding:2.2rem 1.4rem 1.6rem}.paper .text p{font-size:1.3rem}
+  .pad button{width:64px;height:64px}.photo-frame img{max-height:50vh}
+  #progress{display:none}
+}
+@media (max-height:640px){.pad{gap:8px}.pad button{width:54px;height:54px}.lock-title{font-size:2.2rem}.lock-hint{margin-bottom:.8rem}}
