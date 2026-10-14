@@ -16,7 +16,7 @@ const SITE_CONFIG = {
 
   deneb: {
     pin: "2112",                                   // <- change PIN here
-    music: "assets/audio/ere BIN.mp3",
+    music: "assets/audio/BeMyBaby.mp3",
     cover: "assets/images/photos/Synced.jpg",   // round photo inside the music disc
     playerLabel: "For my heart",
     lockTitle: "Deneb",
