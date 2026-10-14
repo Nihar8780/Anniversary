@@ -155,7 +155,7 @@ const MEMORIES = [
 const SPECIAL_DATES = [
   { date: "2025-11-01", title: "I Don't Think", text: "That My LOML is YOUU & we are in same college", photo: "assets/images/photos/Synced.jpg" },
   { date: "2025-11-11", title: "Magical Day / GOD'S PLAN", text: "We Met And Started Knowing Eachother Mutually Like Name And You Thought I'm 'PATEL' But I'm Your Makhana, And We Go To PhotoBooth", photo: "assets/images/photos/PhotoBooth.jpeg" },
-  { date: "2025-11-21", title: "My Penguin's Birthday", text: "It's Your Birthday, And I Posted A Story Of Yours 1st Time ", photo: "assets/images/photos/21-11-2025.JPG.jpeg" },
+  { date: "2025-11-21", title: "My Penguin's Birthday", text: "It's Your Birthday, And I Posted A Story Of Yours 1st Time ", photo: "assets/images/photos/21-11-2025.jpeg" },
   { date: "2025-11-27", title: "Someone Gives A Nickname", text: "On This Day Youu Give Me A Nickname 'JAADDDUUUU' Besttestt Nickname Ever You Give, Thank YOUU!! LOVEEE YOUUU", photo: "assets/images/photos/Jadddu.jpg" },
   { date: "2025-12-01", title: "Bestt Friends", text: "On This Day We Clicked 1st Photo As A BEST FRIENDS, We Are At KnockOut And We Take Mirror Selfie", photo: "" },
   { date: "2025-12-07", title: "My Sweet Bhukhad Bhondu", text: "On This Day My Deneb Shared Me HER 1st Face Snap Of Eating 'RABDI JALEBI'", photo: "assets/images/photos/My1.jpeg" },
