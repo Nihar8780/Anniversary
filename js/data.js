@@ -114,7 +114,7 @@ const MEMORIES = [
 
   { id: "polaroid-05", objectType: "polaroid", memoryType: "polaroid", x: 24, y: 696, size: 36, depth: 1.10, tilt: -1,
     title: "BHUKHAD BHONDU", date: "I LOVEE YOUUUU",
-    media: "assets/images/photos/P5.jpeg", caption: "Myyyy Cryy Babbyyy" },
+    media: "assets/images/photos/My39.jpeg", caption: "Myyyy Cryy Babbyyy" },
 
   { id: "polaroid-06", objectType: "polaroid", memoryType: "polaroid", x: 12, y: 708, size: 38, depth: 0.94, tilt: -2,
     title: "PENGIII", date: "I LOVEE YOUUUU",
